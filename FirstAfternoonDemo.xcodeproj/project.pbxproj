@@ -97,12 +97,11 @@
 		A6C6D64D1F88012300DED6D0 /* FirstAfternoonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A6C6D64E1F88012300DED6D0 /* AppDelegate.swift */,
-				A6C6D6501F88012300DED6D0 /* ViewController.swift */,
+				A6C6D67D1F8812AA00DED6D0 /* Controller */,
 				A6C6D6521F88012300DED6D0 /* Main.storyboard */,
 				A6C6D6551F88012300DED6D0 /* Assets.xcassets */,
 				A6C6D6571F88012300DED6D0 /* LaunchScreen.storyboard */,
-				A6C6D65A1F88012300DED6D0 /* Info.plist */,
+				A6C6D67C1F88124F00DED6D0 /* Settings */,
 			);
 			path = FirstAfternoonDemo;
 			sourceTree = "<group>";
@@ -123,6 +122,23 @@
 				A6C6D6701F88012300DED6D0 /* Info.plist */,
 			);
 			path = FirstAfternoonDemoUITests;
+			sourceTree = "<group>";
+		};
+		A6C6D67C1F88124F00DED6D0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6D65A1F88012300DED6D0 /* Info.plist */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		A6C6D67D1F8812AA00DED6D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6D6501F88012300DED6D0 /* ViewController.swift */,
+				A6C6D64E1F88012300DED6D0 /* AppDelegate.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
