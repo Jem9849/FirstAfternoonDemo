@@ -22,22 +22,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0b-II-ieM">
-                                <rect key="frame" x="-424" y="153" width="1197" height="349"/>
+                                <rect key="frame" x="43" y="292" width="288" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="BUTTONY BUTTON YAY" backgroundImage="ok2">
+                                <state key="normal" title="BUTTONY BUTTON YAY">
                                     <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="firstButton" destination="I0b-II-ieM" id="rFU-Kn-lKn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128.80000000000001" y="84.107946026986511"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="ok2" width="1000" height="600"/>
-    </resources>
 </document>
